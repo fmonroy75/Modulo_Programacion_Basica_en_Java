@@ -1,0 +1,108 @@
+preparar un sandwich (individual)
+
+entradas:
+pan
+carne
+queso
+
+
+salida:
+sandwich carne queso
+
+validaciones:
+revisar ingredientes
+si no hay ingredientes no hay pan o carne no hay sandwich
+si no hay queso, se continua sin queso
+
+
+proceso:
+tomar carne previamente preparada desde refrigerador
+tomar queso desde refrigerador
+tomar pan de la panera
+tomar cuchillo
+
+abrir el pan con cuchillo en forma horizontal
+cortar uno o dos  trozos de carne
+tomar una lamina de queso
+
+poner carne en la parte inferior
+poner queso arriba de la carne
+poner la capa superior del pan
+
+abrir microondas
+poner sandwich en un plato dentro microondas
+cerrar microondas
+poner el timer por 5 seg
+
+al tetminar el tiempo
+abrir microondas
+disfrutar de sandwich
+
+
+
+
+algoritmos (grupal)
+
+1.- cambiar rueda
+entradas: 
+	rueda repuesto
+	gata
+	llave
+
+proceso:
+	revisar rueda de repuesto en buenas condiciones y si se encuentra
+	verificar que se encuentre apagado
+	verificar que el vehiculo este frenado
+	revisar gata y llave
+	sacar rueda de repuesto
+	tomar llave
+	soltar pernos
+	poner la gata
+	subir gata
+	sacar los pernos
+	sacar la rueda
+	poner rueda repuesto
+	poner pernos
+	bajar la gata
+	apretar los pernos
+	guardar herramientas y rueda
+2.- cambiar pañal
+entradas:
+	pañal limpio
+	toallitas
+	mudador
+	ropa limpia
+
+	tomar un pañal limpio y toallitas
+	poner bebe en mudador
+	sacar la ropa
+	sacar pañal sucio
+	verificar grado suciedad
+	si esta muy sucio
+		lavar bebe
+		secar bebe
+	si no
+		limpiar con toallitas
+	poner talco
+	poner nuevo pañal
+	verificar si se pasó el pañal
+	de ser así
+		vestir con ropa limpia
+	si no
+		vestir nuevamente
+
+	poner en basura el pañal usado
+	lavarse las manos
+
+3.- cambiar clave del correo
+	tener cuenta
+	entrar al correo
+	seleccionar cambiar password
+	cambiar password
+	cerrar aplicacion
+	volver a entrar	
+
+
+
+
+
