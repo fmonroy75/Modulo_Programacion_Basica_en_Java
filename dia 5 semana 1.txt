@@ -1,0 +1,212 @@
+tarea 2:
+algoritmo:compra en tienda virtual
+
+entradas:
+-usuario
+-password
+-productos
+-cantidad de productos
+-direccion envío
+-datos medio de compra
+
+salidas
+- compra realizada
+- comprobante de compra
+
+
+-enceder computador
+-ingresar url
+-ingresar usuario
+-ingrsar password
+-navegar por los productos
+-se encuentra el producto buscado?
+	-si elproducto tiene stock 
+	-ingresar la cantidad deseada
+	-agregar al carro
+	-(1)si se desea seguir comprando 
+		- seleccionar otro producto
+		-ingresar la cantidad deseada
+		-agregar al carro
+		-repetir la pregunta anterior (1)
+	-si no
+		-ingresar direccion de despacho	
+		-seleccionar medio de pago
+		-confirmar pago
+
+-cerrar sesion
+
+
+
+
+datos primitivos en java
+tipos de datos primitivos.
+
+byte
+short
+int
+long
+float
+double
+boolean
+char
+
+byte(por defecto 0)
+Representa un tipo de dato de 8 bits con signo. De tal manera que puede almacenar los valores numéricos de -128 a 127 (ambos inclusive).
+
+short(por defecto 0)
+Representa un tipo de dato de 16 bits con signo. De esta manera almacena valores numéricos de -32.768 a 32.767.
+ejemplo: notas de un alumno
+
+int(por defecto 0)
+Es un tipo de dato de 32 bits con signo para almacenar valores numéricos. Cuyo valor mínimo es -2^31 y el valor máximo 2^31-1.
+ejemplo: precios
+
+long(por defecto 0)
+Es un tipo de dato de 64 bits con signo que almacena valores numéricos entre -2^63 a 2^63-1
+ejemplo:cantidad de exportacion por kilos
+
+float(por defecto 0.0)
+Es un tipo dato para almacenar números en coma flotante con precisión simple de 32 bits.
+ejemplo:peso en kilos
+
+double(por defecto 0.0)
+Es un tipo de dato para almacenar números en coma flotante con doble precisión de 64 bits.
+ejemplo:presion arterial
+
+boolean(por defecto false)
+Sirve para definir tipos de datos booleanos. Es decir, aquellos que tienen un valor de true o false. Ocupa 1 bit de información.
+ejemplo: cualquier condicion de si o no
+
+char(por defecto null)
+Es un tipo de datos que representa a un carácter Unicode sencillo de 16 bits.
+
+char: G
+integer: 89
+byte: 4
+short: 56
+float: 4.7333436
+double: 4.355453532
+
+------------------------------------
+algoritmo:compra en tienda virtual, identificando variables y constantes
+
+entradas:
+-usuario(char)
+-password(char)
+-productos(long)
+-cantidad de productos(integer)
+-direccion envío(char)
+-datos medio de compra(char)
+
+salidas
+- compra realizada
+- comprobante de compra
+
+variables:
+cantidad por articulo(integer)
+direccion de envío(char)
+
+contantes:
+id usuario(char)
+id del producto(long)
+
+-enceder computador
+-ingresar url
+-ingresar usuario
+-ingrsar password
+-navegar por los productos
+-se encuentra el producto buscado?(booleano)
+	-si elproducto tiene stock (booleano)
+	-ingresar la cantidad deseada
+	-agregar al carro
+	-(1)si se desea seguir comprando(boleano) 
+		- seleccionar otro producto
+		-ingresar la cantidad deseada
+		-agregar al carro
+		-repetir la pregunta anterior (1)
+	-si no
+		-ingresar direccion de despacho	
+		-seleccionar medio de pago
+		-confirmar pago
+
+-cerrar sesion
+
+
+-------------------------
+algoritmo realizar liq. de sueldo
+
+entradas:
+liquidacion de sueldo
+
+entrada
+variables
+nombre=string
+rut=string
+cargo=string
+afp=string
+ssalud=string
+porcafp=float
+porssalud=float
+sueldo=long
+horasext=int
+valorhext=double
+bonocolac=int
+bonomov=int
+cargfam=int
+valorcf=double
+falor
+
+proceso
+selecciona empleado ingresando rut
+valorentra=sueldo+(horasext*valorhext)+bonocolac+bonomov+(cargfam*valorcf)
+valordesc=(sueldo*porcafp)+(sueldo*porssalud)
+valorliq=valorentra-valodesc
+
+salida
+liquidacion de sueldo
+
+nombre
+rut
+afp
+porcafp
+ssalud
+porssalud
+sueldo
+numero horas extras = horasext
+valor x horas extras= horasext*valorhext
+bono de colacion
+
+
+-seleccionar empleado
+-ingresar el valor bruto	
+-seleccionar afp
+-seleccionar salud 	
+-ingresar cargas
+-ingresar bonos
+-realizar los descuentos
+
+-------------------------
+realizar una boleta de honorarios electronica
+
+num boleta integer variable
+id emisor  string variable
+nombre emisor	string variable
+giro emisor	string variable
+direccion emisor string variable
+
+nombre receptor string variable
+domicilio receptor string variable
+fecha boleta string variable
+rut receptor string variable
+motivo	string variable
+total honorario integer variable
+descuento boleta float constante
+total liquido integer variable
+
+-selecciona usuario emisor
+-selecciona receptor
+-ingresa motivo boleta
+-ingreso monto
+-calcular porc impuesto 
+-mostrar total liq (total boleta -11.5%)
+confirmar emision
