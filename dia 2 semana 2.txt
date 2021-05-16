@@ -1,0 +1,157 @@
+-realizar un algoritmo que permita sumar dos numeros
+variable numero1
+variable numero2
+variable resultado
+inicio
+escribir "ingrese primer numero: "
+leer numero1
+escribir "ingrese segundo numero: "
+leer numero2
+resultado = numero1 + numero2
+escribir "la suma de ", numero1, " y numero 2 es: " , resultado
+fin
+
+-realizar un algoritmo que permita calcular 3 notas
+variable numero1
+variable numero2
+variable numero3
+variable resultado
+
+constante divisor=3
+
+inicio
+escribir "ingrese primer nota"
+leer numero1
+escribir "ingrese segunda nota"
+leer numero2
+escribir "ingrese tercera nota"
+leer numero3
+
+resultado = (numero1 + numero2 + numero3)/divisor
+escribir "el promedio es: " , resultado
+fin
+
+
+-realizar un algoritmo que permita calcular el cuadrado de un numero
+variable numero1
+variable resultado
+inicio
+escribir "ingrese un numero: "
+leer numero1
+
+resultado = numero1 * numero1
+escribir "el cuadrado de ", numero1, " es: " , resultado
+fin
+
+----------------------------------------------
+
+realizar un algoritmo:
+una persona desea invertir un capital en un banco y desea saber cuanto dinero ganará despues de un mes si el banco le paga a razon de 2% mensual
+
+variable capital
+variable resultado
+constante mensual = 2
+
+inicio
+escribir "ingrese el capital que desea invertir "
+leer capital
+resultado=(capital * mensual)/100
+resultado=resultado + capital
+escribir "capital final es: ", resultado
+fin
+
+
+-----------------------------------
+
+-realizar algoritmo que pida ingresar el modelo y marca de un vehiculo y muestre por pantalla los datos ingresados
+
+variable modelo
+variable marca
+escribir "ingrese marca vehiculo:"
+leer marca
+escribir "ingrese modelo vehiculo:"
+leer modelo
+
+escribir "su vehiculo es ", marca, " ", modelo
+
+
+
+realizar algoritmo que permita calcular el porcentaje solicitado de un numero
+
+variable porcentaje
+variable numero
+variable resultado
+
+escribir "ingrese numero : "
+leer numero
+escribir "ingrese porcentaje: "
+leer porcentaje
+resultado =(numero*porcentaje)/100
+
+escribir "el ", porcentaje , "% de ", numero , "es  ", resultado
+
+
+realizar un algoritmo que  solucione: 
+un vendedor recibe un sueldo base mas un 10% de comision de ventas, el vendedor desea saber cuanto dinero obtendrea por concepto de comisiones por 3 ventas que realiza en el mes y el total que recibira en el mes tomando en cuanta su sueldo base y comisiones
+
+variable sueldo_base
+variable cant_ventas
+variable monto_ventas
+variable resultado
+
+constante porc_ventas =10
+
+escribir " ingrese su sueldo base : "
+leer sueldo_base
+escribir " ingrese su monto de ventas : "
+leer monto_ventas
+
+resultado=(monto_ventas*porc_ventas)/100
+
+escribir "comisiones por ventas: ", resultado
+escribir "sueldo total: ", sueldo_base+resultado
+
+
+
+--------------------
+algoritmo que intercambie el valor de 2 variables
+A=2 b=3   resultado debe ser A=3 y B=2
+
+variable A
+variable B
+variable paso
+
+escribir "ingrese valor variable A:"
+leer A
+escribir "ingrese valor variable B:"
+leer B
+
+paso=A
+A=B
+b=paso
+escribir "valor variable A:",A
+escribir "valor variable B:",B
+
+
+------------------------------
+
+
+
+variable A
+variable B
+
+
+escribir "ingrese valor variable A:"
+leer A
+escribir "ingrese valor variable B:"
+leer B
+
+A=A+B
+B=A-B
+A=A-B
+escribir "valor variable A:",A
+escribir "valor variable B:",B
+
+
+
+

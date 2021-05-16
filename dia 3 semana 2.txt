@@ -1,0 +1,218 @@
+-determinar si un numero es par o impar
+
+variable numero
+variable resto
+escribir "ingrese un numero "
+leer numero
+	resto =numero modulo 2
+	si resto>0 entonces
+		escribir "numero es impar"
+	sino
+		escribir "numero es par"
+
+-determinar si un numero es multiplo o no de 2
+
+variable numero
+variable resto
+escribir "ingrese un numero "
+leer numero
+
+	resto =numero modulo 2
+	si resto>0 entonces
+		escribir "numero es multiplo de 2"
+	sino
+		escribir "numero NO es multiplo de 2"
+
+
+-determinar si un numero es multiplo o no de 3
+
+
+variable numero
+variable resto
+escribir "ingrese un numero "
+leer numero
+	resto =numero modulo 3
+	si resto>0 entonces
+		escribir "numero es multiplo de 3"
+	sino
+		escribir "numero NO es multiplo de 3"
+
+
+-----------------------------------------------------
+
+-determinar cual es el mayor numero de 2 ingresados
+
+variable numero1
+variable numero2
+
+escribir "ingrese un numero "
+leer numero1
+escribir "ingrese otro numero "
+leer numero2
+si numero1==numero2
+	escribir "son iguales"
+else
+	si numero1>numero2 entonces
+		escribir numero1, " es mayor a ", numero2
+	sino
+		escribir numero2, " es mayor a ", numero1
+
+----------------------------------------------------
+
+- deerminra si la suma de 2 numeros  es positiva o negativa
+variable numero1
+variable numero2
+variable suma
+escribir "ingrese un numero "
+leer numero1
+escribir "ingrese otro numero "
+leer numero2
+suma=numero1 + numero2
+si suma==0
+	escribir "la suma es 0"
+else
+	si suma>0 entonces
+		escribir "la suma de ", numero1, " y ", numero2, " es positiva"
+	sino
+		escribir "la suma de ", numero1, " y ", numero2, " es negativa"
+
+
+- determinar si un numero es divisible por 2 y por 5 al mismo tiempo
+variable numero
+escribir "ingrese un numero "
+leer numero
+
+	si numero modulo 2==0 y numero modulo 5==0 entonces
+		escribir "numero es divisible por 2 y por 5"
+	sino
+		escribir "numero NO es divisible por 2 y por 5"
+
+
+
+
+-determinar cual es el mayor de 3 numeros
+
+variable numero1
+variable numero2
+variable numero3
+variable numeromayor
+escribir "ingrese un numero "
+leer numero1
+escribir "ingrese otro numero "
+leer numero2
+escribir "ingrese otro numero "
+leer numero3
+si numero1==numero2
+	escribir "son iguales"
+else
+	si numero1>numero2 entonces
+		si numero1>numero3 entonces
+			numeromayor=numero1
+			escribir numeromayor, " es el mayor de todos "
+		sino
+			numeromayor=numero3
+			escribir numeromayor, " es el mayor de todos "
+        si numero2>numero3 entonces
+		numeromayor=numero2
+		escribir numeromayor, " es el mayor de todos "
+	si no
+		numeromayor=numero1
+		escribir numeromayor, " es el mayor de todos "
+
+
+
+variable numero1
+variable numero2
+variable numero3
+escribir "ingrese un numero "
+leer numero1
+escribir "ingrese otro numero "
+leer numero2
+escribir "ingrese otro numero "
+leer numero3
+
+si numero1==numero2
+	escribir "son iguales"
+else
+	si numero1>numero2 entonces
+		si numero1>numero3 entonces
+			escribir numero1, " es el mayor de todos "
+		sino
+			escribir numero3, " es el mayor de todos "
+	si numero2>numero3 entonces
+		escribir numero2, " es el mayor de todos "
+	si no
+		escribir numero1, " es el mayor de todos "
+
+
+---------------------------------------------------------
+algoritmo que solicite al usuario ingresar 2 numeros y realizar la operacion matematica que el usuario desee
+
+variable numero1
+variable numero2
+variable operacion
+escribir "ingrese un numero "
+leer numero1
+escribir "ingrese otro numero "
+leer numero2
+escribir "ingrese operacion "
+leer operacion
+
+segun operacion
+	operacion=="+"
+		escribir "la suma es ", numero1 + numero2
+
+	operacion=="*"
+		escribir "la multiplicacion es ", numero1 * numero2
+
+	operacion=="-"
+		escribir "la resta es ", numero1 - numero2
+
+	operacion=="/"
+		escribir "la division es ", numero1 / numero2
+
+	operacion=="%"
+		escribir "el resto es ", numero1 % numero2
+
+
+-------------------------------------------
+buscar informacion sobre algoritmos de busqueda y ordenamiento
+
+
+Algoritmos de Búsqueda y Ordenamiento
+
+
+ALGORITMOS DE BÚSQUEDA
+
+Búsqueda Secuencial
+for (i=0; i < LARGO; i++)
+if (a[i]==Elemento_buscado)
+printf(“Elemento encontrado en: %d\n”, i);
+
+
+Búsqueda Binaria
+Para utilizar este algoritmo, el arreglo debe estar ordenado y no se deben repetir los elementos. La búsqueda binaria consiste en dividir el arreglo en dos subarreglos más pequeños, y comparar el elemento con el del centro. Si coinciden, la búsqueda se termina. En cada iteración el arreglo se divide en dos.
+
+Búsqueda Hashing
+for (i=1; i<TAM; i++)
+for j=0 ; j<TAM – 1; j++)
+if (lista[j] > lista[j+1])
+temp = lista[j];
+lista[j] = lista[j+1];
+lista[j+1] = temp;
+
+
+
+ALGORITMOS DE ORDENAMIENTO
+
+Ordenamiento de Burbuja
+Ordenamiento por Inserción
+Ordenamiento por selección
+Ordenamiento con árbol binario
+Ordenamiento Shell
+Ordenamiento rápido (Quicksort)
+Ordenamiento por montículos (Heapsort)
+
+
+
+
